@@ -11,6 +11,8 @@
     <title>简历填写</title>
 </head>
 <body>
-<form>姓名<input type="text"></form>
+<form>姓名<input type="text">
+
+</form>
 </body>
 </html>
