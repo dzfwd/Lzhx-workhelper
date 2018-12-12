@@ -13,7 +13,10 @@
 <body>
 <form>姓名<input type="text" name="userName">
 性别<input type="text" name="sex">
-    出生年月<input type="datetime" name="birthdate">
+    出生年月<input type="date" name="birthdate">
+    电话号码<input type="text" name="phone">
+    教育程度（学历）<input type="radio" name="Education" value="ga">
+
 </form>
 </body>
 </html>

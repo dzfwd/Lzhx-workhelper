@@ -44,7 +44,7 @@
         </div>
     </form>
     <div class="signin">
-        <input type="submit" value="Login" ><a href="WEB-INF/Pages/resume.jsp" onclick="">前往简历</a>
+        <input type="submit" value="Login" ><a href="Pages/resume.jsp" onclick="">前往简历</a>
     </div>
 </div>
 <div class="copy-rights">
