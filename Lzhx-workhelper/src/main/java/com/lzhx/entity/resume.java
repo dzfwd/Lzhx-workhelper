@@ -4,21 +4,21 @@ package com.lzhx.entity;
  * Created by Administrator on 2018/12/11 0011.
  */
 public class resume {
-    private String rid;
-    private String state;
-    private String uid;
-    private String sex;
-    private String birthdate;
-    private String phone;
-    private String education;
-    private String graduated;
-    private String gtime;
-    private String nation;
-    private String IDcardNo;
-    private String nativeplace;
-    private String address;
-    private String wechatorqq;
-    private String salary;
+    private String rid;//简历ID
+    private String state;//求职意向
+    private String uid;//用户ID
+    private String sex;//用户性别
+    private String birthdate;//用户生日
+    private String phone;//联系方式
+    private String education;//教育程度（学历）
+    private String graduated;//毕业院校
+    private String gtime;//毕业时间
+    private String nation;//民族
+    private String IDcardNo;//身份证号
+    private String nativeplace;//籍贯
+    private String address;//现居住地
+    private String wechatorqq;//微信qq
+    private String salary;//期望薪资
 
     public String getRid() {
         return rid;
