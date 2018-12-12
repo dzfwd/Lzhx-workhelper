@@ -11,8 +11,9 @@
     <title>简历填写</title>
 </head>
 <body>
-<form>姓名<input type="text">
-
+<form>姓名<input type="text" name="userName">
+性别<input type="text" name="sex">
+    出生年月<input type="datetime" name="birthdate">
 </form>
 </body>
 </html>
