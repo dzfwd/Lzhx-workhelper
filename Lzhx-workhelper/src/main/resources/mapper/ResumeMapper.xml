@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!-- 为UserDao接口方法提供sql语句配置 -->
 <mapper namespace="com.lzhx.dao.UserDao">
-    <insert id="insertNewResume" parameterType="Resume" >
-        INSERT INTO resume (rid,state,uid,sex,birthdate,phone,Education,graduated,Gtime,Nation,IDcardNo,nativeplace,address,wechatorqq,salary,Introduce) VALUES
+    <insert id="insertNewResume" parameterType="Resume">
+        INSERT INTO resume (rid,state,uid,sex,birthdate,phone,Education,graduated,Gtime,Nation,IDcardNo,nativeplace,address,wechatorqq,salary,Introduce) VALUES (#{rid},#{state},#{uid},#{sex},#{birthdate},#{phone},#{education},#{graduated},#{gtime},#{nation},#{IDcardNo},#{nativeplace},#{address},#{wechatorqq},#{salary},#{Introduce})
     </insert>
 </mapper>
