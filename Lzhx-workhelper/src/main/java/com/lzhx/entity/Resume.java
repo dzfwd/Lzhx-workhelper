@@ -3,7 +3,7 @@ package com.lzhx.entity;
 /**
  * Created by Administrator on 2018/12/11 0011.
  */
-public class resume {
+public class Resume {
     private String rid;//简历ID
     private String state;//求职意向
     private String uid;//用户ID
@@ -19,6 +19,15 @@ public class resume {
     private String address;//现居住地
     private String wechatorqq;//微信qq
     private String salary;//期望薪资
+    private String Introduce;//自我介绍
+
+    public String getIntroduce() {
+        return Introduce;
+    }
+
+    public void setIntroduce(String introduce) {
+        Introduce = introduce;
+    }
 
     public String getRid() {
         return rid;
